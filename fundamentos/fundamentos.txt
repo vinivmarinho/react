@@ -1,0 +1,8 @@
+- Os frameworks de front-end (como React, Vue e Angular) existem porque:
+    - Os sites ficaram mais complexos, e frameworks ajudam a reutilizar o código, trabalhar com componentes, tornar interfaces mais rápidas e dinâmicas, ajudar a escalar os projetos grandes
+
+- O que é React? => React é uma biblioteca JavaScript criada pelo Facebook usada para construir interfaces de usuário (UI) — especialmente em aplicações web dinâmicas. Ela permite que os desenvolvedores criem componentes reutilizáveis, que são pequenas partes independentes da interface, como botões, menus ou formulários. Esses componentes podem ser combinados para formar páginas inteiras de forma organizada e eficiente.
+
+- O que é JSX? => JSX (JavaScript XML) é uma extensão da linguagem JavaScript que permite escrever código parecido com HTML dentro do JavaScript. Ele foi criado para deixar o código do React mais simples e legível, permitindo misturar lógica e interface no mesmo lugar.
+
+- O que é state em React? => O state é um objeto que guarda informações que podem mudar durante a execução do seu aplicativo. Ele representa o estado atual de um componente — e quando o state muda, o React atualiza automaticamente a interface com o novo valor (ou seja, ele REAGE à mudança).
