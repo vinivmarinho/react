@@ -1,5 +1,6 @@
-- O que é um componente? => é uma parte da interface que você pode reutilizar. A tela de um site é feita de várias pecinhas — botão, card, menu, barra de pesquisa, avatar, lista, etc. Cada pecinha dessas pode ser um componente. Um componente React é uma função JavaScript na qual você pode adicionar markup. Em vez de ficar repetindo o mesmo código várias vezes, você cria um componente uma vez e usa ele onde quiser. OBS: Todo componente precisa retornar algo (usando o return)
-- Componentes react são funções JS normais, mas seus nomes precisam começar com letra maiúscula, senão não funcionam
+- O que é um componente? => é uma parte da interface que você pode reutilizar (são funções JS normais, mas seus nomes precisam começar com letra maiúscula). A tela de um site é feita de várias peças — botão, card, menu, barra de pesquisa, avatar, lista, etc. Cada pecinha dessas pode ser um componente. Um componente React é uma função JavaScript na qual você pode adicionar markup. Em vez de ficar repetindo o mesmo código várias vezes, você cria um componente uma vez e usa ele onde quiser. OBS: Todo componente precisa retornar algo (usando o return)
+
 - Por quê componentes existem? => Para organizar o código. Para reutilizar partes da interface. Para deixar o projeto mais fácil de manter. Para quebrar a página em partes independentes.
-- Exportando um componente => Usa-se o: export default nomeDoComponente. Só pode existir um "export default" por arquivo
+
+- Exportando um componente => Usa-se o: export default nomeDoComponente (pode ser usado na criação do componente ou no final do arquivo). Só pode existir um "export default" por arquivo
 - Importando em outro arquivo => import nomeDoComponente from "caminhoDoArquivo"
