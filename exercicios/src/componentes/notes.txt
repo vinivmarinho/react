@@ -3,4 +3,10 @@
 - Por quê componentes existem? => Para organizar o código. Para reutilizar partes da interface. Para deixar o projeto mais fácil de manter. Para quebrar a página em partes independentes.
 
 - Exportando um componente => Usa-se o: export default nomeDoComponente (pode ser usado na criação do componente ou no final do arquivo). Só pode existir um "export default" por arquivo
+
 - Importando em outro arquivo => import nomeDoComponente from "caminhoDoArquivo"
+
+- Root component file (arquivo do componente raiz) => É o primeiro componente que o React renderiza na tela, o ponto de entrada da interface. (App.jsx)
+- Regras do JSX:
+    * Para retornar duas ou mais tags em JSX, é preciso envolvê-las em uma tag pai (como uma <div> ou <> </>, que é chamada de Fragment. O Fragment é usado quando você não quer adicionar elementos extras na árvore HTML).
+    * O JSX exige que todas as tags sejam fechadas explicitamente (Tags autossuficientes, como <img>, devem virar <img />. Tags que envolvem conteúdo, como <li>oranges, devem ser escritas como <li>oranges</li>)

@@ -1,0 +1,2 @@
+- Props(Properties) => São dados que você envia de um componente para outro. Como se fossem parâmetros de uma função, só que para componentes.
+- Como funciona => Um componente pai envia informações (props). Um componente filho recebe essas informações e usa dentro do JSX

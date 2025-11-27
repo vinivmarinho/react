@@ -5,8 +5,8 @@
  * src => É aqui onde você trabalha. Quase todo o código do seu app vive aqui: componentes React(.jsx), CSS, lógicas, pastas com exercícios, funções utilitárias.  Dentro de src:
     * main.jsx => Esse arquivo “inicializa” o React dentro do HTML. É como ligar o motor da aplicação.
     * App.jsx => É o componente principal, a "raiz" do seu app. Tudo começa a partir dele. Aqui é escolhido qual "exercício/código" vai rodar
-    * App.css → Arquivo onde ficam os estilos aplicados especificamente ao App.jsx
-
+    * App.css => Arquivo onde ficam os estilos aplicados especificamente ao App.jsx
+    * index.css => Esse é o estilo global da aplicação. 
  * assets => Pasta para guardar imagens, logos ou estilos que fazem parte do código. É possível apagar se não estiver usando.
  * package.json => Esse é o arquivo que “descreve” seu projeto. Ele contém: nome do projeto. dependências. scripts (ex.: npm run dev). versão do React. versão do Vite
  * index.html => O HTML principal que exibe o React. Ele é minimalista porque tudo acontece no React.
