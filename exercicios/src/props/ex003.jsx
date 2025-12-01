@@ -9,10 +9,13 @@ function Mensagem({ texto, cor, tamanho }) {
   );
 }
 
-// Componente também usa props "texto", "cor" e "tamanho". Ele usa essas props para chamar o componente "Mensagem", passando as mesmas props em diante. Isso se chama "Prop drilling(encaminhamento de prop"
+// Componente também usa props "texto", "cor" e "tamanho". Ele usa essas props para chamar o componente "Mensagem", passando as mesmas props em diante. Isso se chama "Prop drilling(encaminhamento de prop")
 function Cartao({ texto, cor, tamanho }) {
   return (
     <div className="cartao">
+      {/* Usando o spread(...props) para passar todos os props de uma vez:
+        <Mensagem {...props} 
+      */}
       <Mensagem texto={texto} cor={cor} tamanho={tamanho} />
     </div>
   );
@@ -23,5 +26,5 @@ function Cartao({ texto, cor, tamanho }) {
 // Cartao repassa essas props para o componente Mensagem.
 // Mensagem usa as props para exibir o texto estilizado.
 export default function Main() {
-  return <Cartao texto="Treinando o uso de props" cor="Black" tamanho="20px" />;
+  return <Cartao texto="Treinando o uso de props" cor="Orange" tamanho="100px" />;
 }
