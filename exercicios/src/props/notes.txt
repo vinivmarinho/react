@@ -1,2 +1,18 @@
-- Props(Properties) => São dados que você envia de um componente para outro. Como se fossem parâmetros de uma função, só que para componentes.
+- Props(Properties) => São dados que você envia de um componente para outro. Como se fossem parâmetros de uma função, só que para componentes. Elas são imutáveis.
 - Como funciona => Um componente pai envia informações (props). Um componente filho recebe essas informações e usa dentro do JSX
+- Existem 2 formas de criar um props:
+    1° forma = function Pessoa(props) {
+                // Pega as propriedades de "props" manualmente
+                let nome = props.nome;
+                let idade = props.idade
+                return <div>{nome} tem {idade} anos de idade
+            }
+    2° forma = function Pessoa({ nome, idade}) {
+        // Esse modo é chamado de "destructuring". É a forma mais curta e limpa de escrever o código
+        return <div>{nome} tem {idade} anos de idade
+    }
+    
+- Especificando um valor padrão para uma prop => Usa-se o "=" e o valor padrão
+    function Pessoa({ nome, idade="20"}) // O valor padrão para "idade" é "20". Se quando o componente for chamado e a prop "idade" estiver faltando, o valor padrão será usado
+
+- "Prop drilling" => =Ficar passando props de um componente para outro, mesmo quando alguns deles nem precisam usar esses dados, só para que a informação chegue no componente que realmente precisa.

@@ -1,3 +1,4 @@
+import { Children } from "react";
 import MeuComponente from "./componentes/ex001";
 import Pagina from "./componentes/ex002";
 import Principal from "./props/ex001";
