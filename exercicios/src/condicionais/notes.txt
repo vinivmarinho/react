@@ -1,0 +1,2 @@
+Síntaxe do operador ternário => condição ? valor_se_verdade : valor_se_falso
+Obs => No react, usa-se o "&&" para renderizar algo apenas se a condição for verdadeira. Síntaxe: condição && JSX_ou_texto

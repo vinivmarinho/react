@@ -12,6 +12,7 @@ function CartaoPessoa({ pessoa, idade }) {
         backgroundColor: "#f0f8ff", // Cor de fundo
         maxWidth: "300px", // Largura máxima
         fontFamily: "Arial, sans-serif",
+        color: "black",
       }}
     >
       <h2>{pessoa}</h2>

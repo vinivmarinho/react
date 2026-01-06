@@ -2,7 +2,7 @@
  * node_modules => É onde ficam todas as dependências do projeto. Tudo que você instala com npm install vai parar aqui. Bibliotecas, Pacotes auxiliares do React, Ferramentas que o Vite usa. Obs: Se apagar node_modules, é só rodar npm install que ela volta.
  * public => Onde ficam arquivos estáticos (que não mudam), como: imagens, ícones, favicons, arquivos usados diretamente no HTML.
  
- * src => É aqui onde você trabalha. Quase todo o código do seu app vive aqui: componentes React(.jsx), CSS, lógicas, pastas com exercícios, funções utilitárias.  Dentro de src:
+ * src => É aqui onde eu trabalho. Quase todo o código do seu app vive aqui: componentes React(.jsx), CSS, lógicas, pastas com exercícios, funções utilitárias.  Dentro de src:
     * main.jsx => Esse arquivo “inicializa” o React dentro do HTML. É como ligar o motor da aplicação.
     * App.jsx => É o componente principal, a "raiz" do seu app. Tudo começa a partir dele. Aqui é escolhido qual "exercício/código" vai rodar
     * App.css => Arquivo onde ficam os estilos aplicados especificamente ao App.jsx
