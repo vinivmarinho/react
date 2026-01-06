@@ -1,8 +1,7 @@
-div.painel_usuario{
+.painel_usuario{
   box-sizing: border-box;
   background-color: #f0f8ff;
   border: 2px solid #007bff;
-  max-width: 122px;
+  max-width: 250px;
   color: black;
-  flex-direction: column wrap;
 }

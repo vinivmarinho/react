@@ -23,7 +23,7 @@ function App() {
       <Main4 />
       <Main5 />
       <StatusUsuario online={false} />
-      <PainelUsuario />
+      <PainelUsuario nome="Vinícius"/>
     </div>
   );
 }
