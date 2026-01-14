@@ -11,6 +11,7 @@ import Main5 from "./props/ex007";
 import StatusUsuario from "./condicionais/ex001";
 import PainelUsuario from "./condicionais/ex002";
 import LikeCounter from "./state/ex001"
+import ToggleText from "./state/ex002";
 function App() {
   return (
     <div>
@@ -26,6 +27,7 @@ function App() {
       <StatusUsuario online={false} />
       <PainelUsuario nome="Vinícius"/>
       <LikeCounter />
+      <ToggleText />
     </div>
   );
 }

@@ -27,3 +27,14 @@ A cada clique:
     - A tela atualiza
 
 - Hook (enganchar/conectar) => Permitem que o componente se conecte ao estado(state), reaja a ciclos de vida, acesse contextos, use outras funcionalidades do React. Só funcionam enquanto o react estiver renderizando algum componente 
+
+- Renderização condicional usando o "&&" => É quando mostra ou esconde algo na tela dependendo de uma condição. Exemplo: "true && "Olá" (retorna "Olá"). Exemplo em código:
+function App() {
+    const isLogged = true;
+    return(
+        <div>
+          // Se isLogged for true, o h1 aparece. Se for false, nada aparece
+          {isLogged && <h1>Bem-vindo!</h1>}
+        </div>
+    )
+}
