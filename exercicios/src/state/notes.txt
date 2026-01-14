@@ -38,3 +38,4 @@ function App() {
         </div>
     )
 }
+- Obs => Não usar && quando precisa de "else", melhor usar um ternário
