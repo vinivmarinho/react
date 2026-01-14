@@ -10,6 +10,7 @@ import Main4 from "./props/ex006";
 import Main5 from "./props/ex007";
 import StatusUsuario from "./condicionais/ex001";
 import PainelUsuario from "./condicionais/ex002";
+import LikeCounter from "./state/ex001"
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
       <Main5 />
       <StatusUsuario online={false} />
       <PainelUsuario nome="Vinícius"/>
+      <LikeCounter />
     </div>
   );
 }

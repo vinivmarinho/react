@@ -1,0 +1,29 @@
+Em React, variáveis locais não são suficientes para atualizar a interface quando algo muda. Isso acontece por dois motivos:
+    1 => Variáveis locais não persistem entre renders. Um componente React é uma função. Toda vez que o React renderiza o componente, essa função é executada novamente do zero.
+    2 => Alterar variáveis locais não dispara re-render
+
+Para atualizar a interface, o valor precisa ser mantido entre renders. O react precisa ser "avisado" para renderizar novamente. Para isso, usa-se o "useState".
+useState => É um "Hook" do react usado pra guardar dados que mudam com o tempo e fazer o react re-renderizar o componente quando os dados mudam.
+Importando o useState => import {useState} from "react";
+Sintaxe básica => const [valor, setValor] = useState{valorInicial}.
+    * "valor" => state atual
+    * "setValor" => Função que atualiza o state
+    * "valorInicial" => Valor usado no primeiro render
+
+Exemplo:
+    function Contador() {
+        const[count, setCount] = useState(0);
+        
+        function handleClick() {
+            setCount(count + 1);
+        }
+
+        return <button onClick={handleClick}>{count}</button>
+    }
+A cada clique:
+    - a função "setCount" é chamada
+    - O react salva o novo valor imposto pela função "setCount"
+    - O componente é re-renderizado
+    - A tela atualiza
+
+- Hook (enganchar/conectar) => Permitem que o componente se conecte ao estado(state), reaja a ciclos de vida, acesse contextos, use outras funcionalidades do React. Só funcionam enquanto o react estiver renderizando algum componente 
