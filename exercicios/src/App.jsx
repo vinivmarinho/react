@@ -12,6 +12,7 @@ import StatusUsuario from "./condicionais/ex001";
 import PainelUsuario from "./condicionais/ex002";
 import LikeCounter from "./state/ex001"
 import ToggleText from "./state/ex002";
+import UserName from "./state/ex003";
 function App() {
   return (
     <div>
@@ -28,6 +29,7 @@ function App() {
       <PainelUsuario nome="Vinícius"/>
       <LikeCounter />
       <ToggleText />
+      <UserName />
     </div>
   );
 }
