@@ -1,3 +1,7 @@
+/* Tarefas:
+- Faça um fetch no useEffect
+- Armazene o resultado em data
+- Mostre o JSON na tela usando JSON.stringify*/
 // Importação dos hooks
 import { useEffect, useState } from "react";
 export default function FirstConsumeOfApi() {

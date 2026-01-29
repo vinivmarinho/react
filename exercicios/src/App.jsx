@@ -13,7 +13,8 @@ import PainelUsuario from "./condicionais/ex002";
 import LikeCounter from "./state/ex001"
 import ToggleText from "./state/ex002";
 import UserName from "./state/ex003";
-import FirstConsumeOfApi from "./api/ex001";
+import FirstConsumeOfApi from "./api/ex001"
+import SecondComponent from "./api/ex002";
 function App() {
   return (
     <div>
@@ -32,6 +33,7 @@ function App() {
       <ToggleText />
       <UserName />
       <FirstConsumeOfApi />
+      <SecondComponent />
     </div>
   );
 }
