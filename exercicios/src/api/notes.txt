@@ -1,10 +1,10 @@
 1- Consumindo API no React (forma clássica):
     Hooks usados:
         - useState => Armazena dados
-        - useEffect => Executa a fetch
+        - useEffect => Executa a fetch. Criando um: useEffect(() => {"código vem aqui dentro"}, [])
     Exemplo:
     
-    import `{useEffect, useState} from "react"
+    import {useEffect, useState} from "react"
 
     function App() {
         const [data, setData] = useState(null)
@@ -27,7 +27,7 @@
     - .then(data => setData(data)) => Pega os dados retornados pela API e salva esses dados no estado data usando a função setData. O "data" dentro do .then é o valor retornado pela API. A função "setData(data)" atualiza o estado data do React com esse valor, fazendo o componente renderizar novamente com os novos Dados
     - .catch(err => setError(err)) => Se der erro, o "setError" atualiza o estado "error"
     - .finally(() => setLoading(false)) => Executa sempre, com erro ou sem erro, o loading vira false, ou seja, finaliza o carregamento
-    - "}, [])" => Dependências vazias, o useEffect roda apenas uma vez
+    - [] no final do useEffect => Dependências vazias, o useEffect roda apenas uma vez
     - return <div>{JSON.stringify(data)}</div> => Mostra os dados na tela. O JSON.stringify" é para debug/visualização, em app real é renderizado em campos específicos
 
 
