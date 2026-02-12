@@ -5,7 +5,7 @@
 - Se der certo → mostrar os dados
 */
 import { useEffect, useState } from "react";
-export default function SecondComponent() {
+export default function SecondApiComponent() {
   // Estado que vai guardar os dados vindos da API
   const [data, setData] = useState(null);
   // Estado pra controlar o carregamento
@@ -15,7 +15,7 @@ export default function SecondComponent() {
   // Começa com null porque ainda não ocorreu nenhum erro
   const [error, setError] = useState(null);
   // useEffect executa quando o componente é montado na tela
-  // O array vazio [] indicia que ele roda apenas uma vez
+  // O array vazio [] no final do useEffect indicia que ele roda apenas uma vez
   useEffect(() => {
     // Faz a requisição para a API
     fetch("https://jsonplaceholder.typicode.com/posts/1")
@@ -30,9 +30,7 @@ export default function SecondComponent() {
       })
       // Salva os dados da API no estado
       .then((data) => setData(data))
-      // Caso ocorra qualquer erro na requisição, ele é armazenado no estado "error"
       .catch((error) => setError(error))
-      // Esse bloco executa sempre! O estado "loading" é desligado(false)
       .finally(() => setLoading(false));
   }, []);
   // Se ainda estiver carregando, mostra a mensagem

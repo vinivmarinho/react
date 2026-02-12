@@ -1,7 +1,7 @@
 1- Consumindo API no React (forma clássica):
     Hooks usados:
         - useState => Armazena dados
-        - useEffect => Executa a fetch. Criando um: useEffect(() => {"código vem aqui dentro"}, [])
+        - useEffect => Executa a fetch. Criando um useEffect: useEffect(() => {"código vem aqui dentro"}, [])
     Exemplo:
     
     import {useEffect, useState} from "react"
@@ -13,8 +13,8 @@
 
         useEffect(() => {
             fetch(url)
-                .then(response => response.json())
-                .then(data => setData(data))
+                .then(respostaDoFetch => respostaDoFetch.json())
+                .then(dadosConvertidos => setData(dadosConvertidos))
                 .catch(err => setError(err))
                 .finally(() => setLoading(false))
         }, [])
@@ -46,3 +46,16 @@
         - Prefetch
         - Cache
         - Bibliotecas especializadas
+    
+4- O ".then" é um método de um objeto chamado "Promise"
+
+
+Fonte => https://react.dev/reference/react/useEffect#usage
+5- O que é o useEffect => É um hook que permite a sincronização de um componente com um sistema externo. Parâmetros do useEffect: useEffect(setup, dependencies)
+    - Setup => Função com a lógica do useEffect. Quando o componente é "commitado", o React executa a função setup.
+    - dependencies => Dizem ao React quando o useEffect deve rodar de novo. Podem ser props, states, variáveis, funções. Se houver Dependências, o effect roda quando as Dependências mudam, Exemplo:
+        - useEffect(() => {
+            // setup
+        }, [a, b]);
+    - Se o array estiver vazio, o effect roda uma única vez
+    - Passando Dependências específicas => O Effect roda 

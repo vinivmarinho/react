@@ -11,8 +11,4 @@
  * package.json => Esse é o arquivo que “descreve” seu projeto. Ele contém: nome do projeto. dependências. scripts (ex.: npm run dev). versão do React. versão do Vite
  * index.html => O HTML principal que exibe o React. Ele é minimalista porque tudo acontece no React.
 
-
-
-
-// Conhecimentos que adquiri com a prática
    

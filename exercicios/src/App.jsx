@@ -14,7 +14,9 @@ import LikeCounter from "./state/ex001"
 import ToggleText from "./state/ex002";
 import UserName from "./state/ex003";
 import FirstConsumeOfApi from "./api/ex001"
-import SecondComponent from "./api/ex002";
+import SecondApiComponent from "./api/ex002";
+import ThirdApiComponent from "./api/ex003";
+import FourthApiComponent from "./api/ex004";
 function App() {
   return (
     <div>
@@ -33,7 +35,9 @@ function App() {
       <ToggleText />
       <UserName />
       <FirstConsumeOfApi />
-      <SecondComponent />
+      <SecondApiComponent />
+      <ThirdApiComponent />
+      <FourthApiComponent />
     </div>
   );
 }
