@@ -17,6 +17,7 @@ import FirstConsumeOfApi from "./api/ex001"
 import SecondApiComponent from "./api/ex002";
 import ThirdApiComponent from "./api/ex003";
 import FourthApiComponent from "./api/ex004";
+import FifthComponent from "./api/ex005";
 function App() {
   return (
     <div>
@@ -38,6 +39,7 @@ function App() {
       <SecondApiComponent />
       <ThirdApiComponent />
       <FourthApiComponent />
+      <FifthComponent />
     </div>
   );
 }
