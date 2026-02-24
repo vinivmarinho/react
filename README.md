@@ -1,25 +1,35 @@
-- Objetivo
+# React
 
-Estudar e revisar os conceitos essenciais do React de forma clara e prática.
+Esse repositório é o meu espaço de estudo sobre **React**.  
+Aqui eu organizo os principais **conceitos da biblioteca** em pastas separadas e, dentro de cada uma, eu:
 
-Praticar com exemplos pequenos, componentizados e fáceis de entender.
+- 📘 Documento o conteúdo estudado  
+- 📝 Faço resumos objetivos  
+- 💻 Desenvolvo exercícios práticos e pequenos projetos para fixação  
 
-Criar uma base sólida para projetos maiores no futuro, incluindo hooks, estados, efeitos e boas práticas.
+A ideia é ter um material que eu mesmo possa consultar no futuro, funcionando como um **mini curso estruturado por mim**, mas focado no desenvolvimento de interfaces modernas e aplicações reais.
 
-Manter tudo organizado, com explicações simples que facilitem a revisão.
+---
 
-- O que você vai encontrar aqui
+## 📂 Organização do Repositório
 
-Pequenos exercícios para dominar componentes e props.
+Cada pasta representa um tópico específico do React (ex: componentes, props, state, hooks, context, roteamento, etc.).
 
-Prática com estados (useState) e efeitos (useEffect).
+Dentro de cada pasta você vai encontrar:
 
-Explicações diretas sobre pastas, arquivos e como o React funciona.
+- Explicações teóricas simplificadas  
+- Exemplos práticos  
+- Componentes desenvolvidos para teste  
+- Exercícios e mini projetos  
 
-Mini-projetos para treinar lógica, UI e componentização.
+---
 
-Anotações sobre ferramentas relacionadas (Vite, npm, estrutura de pastas, etc.).
+## 🎯 Objetivo
 
-- Propósito do Repositório
+- Estudar e revisar conceitos fundamentais do React  
+- Entender boas práticas de componentização  
+- Construir interfaces reutilizáveis e organizadas  
+- Criar base sólida para projetos maiores e aplicações completas  
+- Evoluir tecnicamente como desenvolvedor front-end  
 
-Montar uma referência rápida e útil sobre React, feita sob medida para minhas necessidades como estudante de ADS e futuro desenvolvedor.
+---
